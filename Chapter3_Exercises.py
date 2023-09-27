@@ -42,3 +42,35 @@ breakfastFoods : List[str] = ["Eggs", "Fruit", "Toast", "Waffles" ]
 
 for i in range(len(breakfastFoods)):
     print(f"I'd like {breakfastFoods[i]} for breakfast, please.")
+
+   
+EndOfExerciseContinue()
+
+
+#Exercise 3-4
+#Make a list of 3+ people (living or dead) you'd like to invite to dinner. Print an invitation message to each person
+guests : List[str] = ["[insert undisclosed name of my girlfriend here]", "[insert undisclosed name of my qpp here]",
+                      "Tamsyn Muir", "Hayden Christensen"]
+
+for i in range(len(guests)):
+    print(f"Would you, {guests[i]}, do me the honor of having dinner with me?")
+    
+EndOfExerciseContinue()
+    
+#Exercise 3-5
+#A guest can't make it. Send out a statement saying they can't make it. Resend the list. 
+UnableToAttend : str = guests.remove("Hayden Christensen")
+print(f"Unfortunately, {UnableToAttend} will not be able to attend the dinner.")
+guests.append("Brennan Lee Mulligan")
+
+for i in range(len(guests)):
+    print(f"Would you, {guests[i]}, do me the honor of having dinner with me?")
+    
+EndOfExerciseContinue()
+
+
+#Exercise 3-6
+#Getting a new dinner table, invite three more people, and resend all the invitations
+print("I found a new dinner table, so we will be having more guests. :)")
+
+guests.insert(0, "")
