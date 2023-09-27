@@ -13,6 +13,7 @@ def EndOfExerciseContinue():
 # Store names in a list called name. Print each person's name by accessing each eleement in the list
 print("\tExercise 3-1")
 
+#These are all names of characters from my favorite book series: The Locked Tomb by Tamsyn Muir
 names : List[str] = ["Gideon", "Harrowhark", "Ianthe", "Coronabeth", "Palamedes", "Camilla",
                      "Pyrhha", "Nona", "Alecto"]
 
